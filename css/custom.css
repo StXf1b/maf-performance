@@ -2998,9 +2998,7 @@ header.main-header .header-sticky.active{
 }
 
 @media only screen and (max-width: 1024px){
-	.about-us-video {
-		width: 500px !important;
-	}
+
     
     .main-menu ul li {
         margin: 0 10px;
@@ -3795,9 +3793,6 @@ header.main-header .header-sticky.active{
 }
 
 @media only screen and (max-width: 767px){
-	.about-us-video {
-		width: 200px !important;
-	}
     p{
         font-size: 16px;
     }
@@ -4254,11 +4249,8 @@ header.main-header .header-sticky.active{
 /* MY EXTRAS */
 
 .about-video {
-	width: 1280px;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	margin: 0 auto;
+	width: 100%;
+	height: auto;
 }
 
 .many-more {
@@ -4266,21 +4258,4 @@ header.main-header .header-sticky.active{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-}
-
-@media only screen and (max-width: 1300px){
-	.about-video {
-		width: 1000px !important;
-	}
-}
-
-@media only screen and (max-width: 1000px){
-	.about-video {
-		width: 800px !important;
-	}
-}
-@media only screen and (max-width: 800px){
-	.about-video {
-		width: 465px !important;
-	}
 }
