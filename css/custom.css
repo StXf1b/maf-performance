@@ -4259,3 +4259,22 @@ header.main-header .header-sticky.active{
 	align-items: center;
 	text-align: center;
 }
+
+.see-more-gallery {
+	margin-top: 15px;
+	text-align: end;
+	margin-bottom: 20px;
+
+}
+.see-more-gallery button {
+	padding: 9px 30px;
+	border-radius: 20px;
+
+}
+.see-more-gallery button a {
+	color: #121212;
+	font-weight: 600;
+}
+.see-more-gallery button a:hover {
+	color: var(--accent-background);
+}
