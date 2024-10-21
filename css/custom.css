@@ -1675,7 +1675,7 @@ header.main-header .header-sticky.active{
 /*************************************/
 
 .page-header{
-	background-image:  linear-gradient(90deg, #000000CC 20%, #FFFFFF00 100%),url(../images/sub-header-bg.jpg);
+	background-image:  linear-gradient(90deg, #000000CC 20%, #FFFFFF00 100%),url(../images/sub-header-bg.png);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -1764,11 +1764,11 @@ header.main-header .header-sticky.active{
 .cleaning-secvices-counter{
 	content: '';
 	position: absolute;
-	right: -10px;
+	right: -32px;
 	bottom: -20px;
 	display: inline-block;
 	background-color:  var(--accent-background);
-	border: 10px solid var(--body-background);
+	border: 1px solid var(--body-background);
 	text-align: center;
 	padding: 20px;
 }
