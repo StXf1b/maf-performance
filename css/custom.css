@@ -1,9 +1,4 @@
-/* ----------------------------------------------------------------------------------------
-* Author        : Awaiken
-* Template Name : Aziland - Car Repair Service & Auto Mechanic HTML Template
-* File          : CSS File
-* Version       : 1.0
-* ---------------------------------------------------------------------------------------- */
+
 /* INDEX
 ----------------------------------------------------------------------------------------
 01. Global Variables
@@ -4277,4 +4272,10 @@ header.main-header .header-sticky.active{
 }
 .see-more-gallery button a:hover {
 	color: var(--accent-background);
+}
+
+.price-info {
+	display: flex;
+	justify-content: center;
+
 }
