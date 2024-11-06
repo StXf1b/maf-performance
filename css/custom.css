@@ -3788,6 +3788,26 @@ header.main-header .header-sticky.active{
 }
 
 @media only screen and (max-width: 767px){
+	.dry-clean-section{
+
+		height: 1050px;
+	}
+	.service-price-header h4 {
+		font-size: 17px;
+	}
+	.service-price-header h5 {
+		font-size: 15px;
+	}
+	.service-price-header h6 {
+		font-size: 17px !important;
+	}
+	.services-lists h5 {
+		font-size: 18px;
+	}
+	.services-lists {
+		display: flex;
+		justify-content: center;
+	}
     p{
         font-size: 16px;
     }
@@ -4277,5 +4297,4 @@ header.main-header .header-sticky.active{
 .price-info {
 	display: flex;
 	justify-content: center;
-
 }
