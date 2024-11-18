@@ -350,3 +350,28 @@ if ($("body").not(".is-mobile").hasClass("tt-magic-cursor")) {
         });
     }
 }
+
+
+
+
+// Get elements
+const showExtrasBtn = document.getElementById('showExtrasBtn');
+const extrasModal = document.getElementById('extrasModal');
+const closeModal = document.getElementById('closeModal');
+
+// Show the modal
+showExtrasBtn.addEventListener('click', () => {
+    extrasModal.style.display = 'flex';
+});
+
+// Close the modal
+closeModal.addEventListener('click', () => {
+    extrasModal.style.display = 'none';
+});
+
+// Close the modal when clicking outside the content
+window.addEventListener('click', (event) => {
+    if (event.target === extrasModal) {
+        extrasModal.style.display = 'none';
+    }
+});
