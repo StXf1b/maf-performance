@@ -355,7 +355,8 @@ if ($("body").not(".is-mobile").hasClass("tt-magic-cursor")) {
 
 
 // Get elements
-const showExtrasBtn = document.getElementById('showExtrasBtn');
+const showExtrasBtn = document.getElementById('showExtrasBtn1');
+const showExtrasBtn2 = document.getElementById('showExtrasBtn2');
 const extrasModal = document.getElementById('extrasModal');
 const closeModal = document.getElementById('closeModal');
 
@@ -363,6 +364,10 @@ const closeModal = document.getElementById('closeModal');
 showExtrasBtn.addEventListener('click', () => {
     extrasModal.style.display = 'flex';
 });
+showExtrasBtn2.addEventListener('click', () => {
+    extrasModal.style.display = 'flex';
+});
+
 
 // Close the modal
 closeModal.addEventListener('click', () => {
