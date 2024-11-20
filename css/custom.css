@@ -4353,3 +4353,22 @@ header.main-header .header-sticky.active{
 .modal-content h2 {
 	color:#fc4949;
 }
+
+.contact-btn-service {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	background: var(--accent-background);
+	color: var(--secondary-color);
+	border: 2px solid var(--accent-background);
+	padding: 12px 20px;
+	transition: var(--transition);
+	border-radius: 10px;
+}
+
+.contact-btn-service:hover{
+	background: var(--transparent-color);
+	color: var(--accent-background);
+}
